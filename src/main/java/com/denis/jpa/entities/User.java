@@ -1,5 +1,6 @@
 package com.denis.jpa.entities;
 
+
 import java.io.Serializable;
 
 import jakarta.persistence.Entity;

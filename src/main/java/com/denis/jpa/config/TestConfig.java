@@ -8,14 +8,13 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
 import com.denis.jpa.entities.User;
-import com.denis.repositories.UserRepository;
+import com.denis.jpa.repositories.UserRepository;
 
 @Configuration
 @Profile("test")
 public class TestConfig implements CommandLineRunner {
 
 	@Autowired
-//	(required=true)
 	private UserRepository userRepository;
 
 	@Override
