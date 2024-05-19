@@ -1,4 +1,4 @@
-package com.denis.jpa.services;
+package com.denissoftware.jpa.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.denis.jpa.entities.User;
-import com.denis.jpa.repositories.UserRepository;
+import com.denissoftware.jpa.entities.User;
+import com.denissoftware.jpa.repositories.UserRepository;
 
 @Service
 public class UserService {

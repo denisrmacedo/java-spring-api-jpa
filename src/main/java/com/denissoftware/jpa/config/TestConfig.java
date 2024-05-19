@@ -1,4 +1,4 @@
-package com.denis.jpa.config;
+package com.denissoftware.jpa.config;
 
 import java.time.Instant;
 import java.util.Arrays;
@@ -8,10 +8,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import com.denis.jpa.entities.Order;
-import com.denis.jpa.entities.User;
-import com.denis.jpa.repositories.OrderRepository;
-import com.denis.jpa.repositories.UserRepository;
+import com.denissoftware.jpa.entities.Order;
+import com.denissoftware.jpa.entities.User;
+import com.denissoftware.jpa.repositories.OrderRepository;
+import com.denissoftware.jpa.repositories.UserRepository;
 
 @Configuration
 @Profile("test")

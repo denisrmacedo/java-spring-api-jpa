@@ -1,4 +1,4 @@
-package com.denis.jpa.entities;
+package com.denissoftware.jpa.entities;
 
 import java.io.Serializable;
 import java.time.Instant;
